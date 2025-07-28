@@ -5,12 +5,12 @@ import { ChevronDown, Clock, MapPin, Calendar } from "lucide-react"
 
 export default function TowaBootcampLP() {
   return (
-    <div className="min-h-screen bg-slate-50">
+    <div className="min-h-screen bg-slate-50 overflow-x-hidden">
       {/* Hero Section */}
       <section className="relative min-h-screen text-white overflow-hidden">
         {/* Header */}
         <header className="relative z-20 pt-4 pb-2 md:pt-6 md:pb-4">
-          <div className="container mx-auto px-4">
+          <div className="container mx-auto px-4 max-w-full">
             <div className="flex items-center justify-between">
               {/* TOWA Logo */}
               <div className="text-xl md:text-2xl font-bold text-white">TOWA</div>
@@ -50,7 +50,7 @@ export default function TowaBootcampLP() {
           </h1>
         </div>
 
-        <div className="container mx-auto px-4 py-8 md:py-16 relative z-10 min-h-screen flex items-end md:items-center">
+        <div className="container mx-auto px-4 py-8 md:py-16 relative z-10 min-h-screen flex items-end md:items-center max-w-full">
           <div className="w-full max-w-md mx-auto md:max-w-none md:mx-0 lg:w-1/2 xl:w-2/5 mb-8 md:mb-0">
             {/* Text overlay for better readability */}
             <div className="relative">
@@ -64,14 +64,14 @@ export default function TowaBootcampLP() {
                 
                 <p className="text-sm sm:text-base md:text-lg lg:text-xl mb-4 md:mb-8 text-white leading-relaxed text-center md:text-left">
                   <span className="text-amber-200">「AIって難しそう...」</span>そんな不安を1日で解消。
-              <br />
+              <br className="hidden sm:block" />
               SNS運用も業務自動化も、AIと一緒なら驚くほど簡単に。
             </p>
 
                 <div className="text-white px-3 md:px-8 py-2 md:py-4 rounded-full inline-block mb-4 md:mb-8 shadow-2xl text-center w-full md:w-auto" style={{ backgroundColor: '#CC554F' }}>
                   <span className="text-xs sm:text-sm md:text-lg font-bold">
                 選べる2コース！1日で実践スキル＋
-                <br />
+                <br className="hidden sm:block" />
                 すぐ使える成果物を持ち帰り
               </span>
             </div>
@@ -79,7 +79,7 @@ export default function TowaBootcampLP() {
                 <div className="text-base sm:text-lg md:text-2xl lg:text-4xl mb-4 md:mb-8 font-bold leading-tight text-center md:text-left">
                   <span className="text-amber-200">「AIって難しそう...」</span>
               <span className="text-white">から</span>
-              <br />
+              <br className="hidden sm:block" />
                   <span className="text-amber-200">「AIって便利！」</span>
               <span className="text-white">へ</span>
             </div>
@@ -88,7 +88,7 @@ export default function TowaBootcampLP() {
                   <span className="text-amber-200 font-bold">初心者歓迎</span>×
                   <span className="text-amber-200 font-bold">超少人数制</span>×
                   <span className="text-amber-200 font-bold">講師2名体制</span>
-              <br />
+              <br className="hidden sm:block" />
               札幌の夏、1日でAIスキルを味方につけよう
             </p>
 
@@ -113,28 +113,28 @@ export default function TowaBootcampLP() {
       </section>
 
       {/* Problem Section */}
-      <section className="py-24" style={{ backgroundColor: '#F9F6F2' }}>
-        <div className="container mx-auto px-4">
+      <section className="py-24 overflow-hidden" style={{ backgroundColor: '#F9F6F2' }}>
+        <div className="container mx-auto px-4 max-w-full">
           <div className="text-center mb-16">
             <div className="inline-block">
               <svg width="300" height="30" viewBox="0 0 300 30" className="mb-12 animate-pulse">
                 <path d="M15 15 Q75 7.5 150 15 T285 15" stroke="#333" strokeWidth="3" fill="none" />
               </svg>
             </div>
-            <h2 className="text-3xl font-bold mb-8 animate-fade-in">こんなお悩み、ありませんか？</h2>
-            <p className="text-2xl mb-4 animate-slide-up">SNS投稿が思うように続かない...</p>
-            <p className="text-2xl mb-12 animate-slide-up">毎日の業務に追われて効率化できない...</p>
-            <p className="text-2xl mb-6 animate-slide-up">
+            <h2 className="text-2xl sm:text-3xl font-bold mb-8 animate-fade-in">こんなお悩み、ありませんか？</h2>
+            <p className="text-lg sm:text-2xl mb-4 animate-slide-up">SNS投稿が思うように続かない...</p>
+            <p className="text-lg sm:text-2xl mb-12 animate-slide-up">毎日の業務に追われて効率化できない...</p>
+            <p className="text-lg sm:text-2xl mb-6 animate-slide-up">
               「<span style={{ color: '#CC554F' }}>AIを使って楽になりたい</span>」けれど
-              <br />
+              <br className="hidden sm:block" />
               何から始めればいいかわからない。
             </p>
-            <p className="text-2xl mb-6 animate-slide-up">
+            <p className="text-lg sm:text-2xl mb-6 animate-slide-up">
               そんなあなたに<span style={{ color: '#CC554F' }}>1日で実践的なスキル</span>を
-              <br />
+              <br className="hidden sm:block" />
               身につけられる機会をご用意しました。
             </p>
-            <p className="text-2xl animate-slide-up">AIは難しくない。正しい使い方を知れば、強力な味方になります。</p>
+            <p className="text-lg sm:text-2xl animate-slide-up">AIは難しくない。正しい使い方を知れば、強力な味方になります。</p>
           </div>
 
           <div className="text-center mb-20">
@@ -143,21 +143,21 @@ export default function TowaBootcampLP() {
             <p className="text-3xl mb-16 animate-slide-up" style={{ color: '#CC554F' }}>実践的なスキル＋すぐ使える成果物をお持ち帰り</p>
           </div>
 
-          <div className="grid md:grid-cols-2 gap-12 max-w-5xl mx-auto">
+          <div className="grid md:grid-cols-2 gap-6 sm:gap-12 max-w-5xl mx-auto">
             <div className="flex items-center gap-6 transform hover:scale-105 transition-all duration-300 hover:shadow-xl rounded-2xl p-4 group">
               <div className="w-24 h-24 transform group-hover:rotate-12 transition-transform duration-300">
                 <Image src="/images/1.png" alt="SNS投稿のネタ切れ" width={96} height={96} className="animate-bounce-slow" />
               </div>
-              <div className="rounded-full px-8 py-4 flex-1 text-lg transform group-hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-2xl" style={{ backgroundColor: '#EDE6DF' }}>SNS投稿のネタ切れ・継続の難しさ</div>
+              <div className="rounded-full px-8 py-4 flex-1 text-base sm:text-lg transform group-hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-2xl" style={{ backgroundColor: '#EDE6DF' }}>SNS投稿のネタ切れ・継続の難しさ</div>
             </div>
 
             <div className="flex items-center gap-6 transform hover:scale-105 transition-all duration-300 hover:shadow-xl rounded-2xl p-4 group">
               <div className="w-24 h-24 transform group-hover:rotate-12 transition-transform duration-300">
                 <Image src="/images/2.png" alt="手作業での業務管理・スケジュール調整の負担" width={96} height={96} className="animate-bounce-slow" />
               </div>
-              <div className="rounded-full px-8 py-4 flex-1 text-lg transform group-hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-2xl" style={{ backgroundColor: '#EDE6DF' }}>
+              <div className="rounded-full px-8 py-4 flex-1 text-base sm:text-lg transform group-hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-2xl" style={{ backgroundColor: '#EDE6DF' }}>
                 手作業での業務管理・
-                <br />
+                <br className="hidden sm:block" />
                 スケジュール調整の負担
               </div>
             </div>
@@ -166,9 +166,9 @@ export default function TowaBootcampLP() {
               <div className="w-24 h-24 transform group-hover:rotate-12 transition-transform duration-300">
                 <Image src="/images/4.png" alt="AIツールはあるけれど、効果的な使い方がわからない" width={96} height={96} className="animate-bounce-slow" />
               </div>
-              <div className="rounded-full px-8 py-4 flex-1 text-lg transform group-hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-2xl" style={{ backgroundColor: '#EDE6DF' }}>
+              <div className="rounded-full px-8 py-4 flex-1 text-base sm:text-lg transform group-hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-2xl" style={{ backgroundColor: '#EDE6DF' }}>
                 AIツールはあるけれど、
-                <br />
+                <br className="hidden sm:block" />
                 効果的な使い方がわからない
               </div>
             </div>
@@ -177,9 +177,9 @@ export default function TowaBootcampLP() {
               <div className="w-24 h-24 transform group-hover:rotate-12 transition-transform duration-300">
                 <Image src="/images/5.png" alt="学習時間が取れず、いつまでも非効率なまま" width={96} height={96} className="animate-bounce-slow" />
               </div>
-              <div className="rounded-full px-8 py-4 flex-1 text-lg transform group-hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-2xl" style={{ backgroundColor: '#EDE6DF' }}>
+              <div className="rounded-full px-8 py-4 flex-1 text-base sm:text-lg transform group-hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-2xl" style={{ backgroundColor: '#EDE6DF' }}>
                 学習時間が取れず、
-                <br />
+                <br className="hidden sm:block" />
                 いつまでも非効率なまま
               </div>
             </div>
@@ -194,8 +194,8 @@ export default function TowaBootcampLP() {
       </section>
 
       {/* Target Audience */}
-      <section className="py-16" style={{ backgroundColor: '#f0eae5' }}>
-        <div className="container mx-auto px-4">
+      <section className="py-16 overflow-hidden" style={{ backgroundColor: '#f0eae5' }}>
+        <div className="container mx-auto px-4 max-w-full">
           <div className="text-center mb-12">
             <svg width="200" height="20" viewBox="0 0 200 20" className="mb-8 mx-auto animate-pulse">
               <path d="M10 10 Q50 5 100 10 T190 10" stroke="#333" strokeWidth="2" fill="none" />
@@ -227,8 +227,8 @@ export default function TowaBootcampLP() {
       </section>
 
       {/* Two Course Options */}
-      <section id="course-details" className="py-16" style={{ backgroundColor: '#F9F6F2' }}>
-        <div className="container mx-auto px-4">
+      <section id="course-details" className="py-16 overflow-hidden" style={{ backgroundColor: '#F9F6F2' }}>
+        <div className="container mx-auto px-4 max-w-full">
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold mb-6 animate-fade-in">選べる2つの実践講座</h2>
             <p className="text-xl mb-6 animate-slide-up" style={{ color: '#CC554F' }}>1日で、未来の"仕事効率化"が手に入る</p>
@@ -338,6 +338,9 @@ export default function TowaBootcampLP() {
                 width={200}
                 height={200}
                 className="mx-auto mb-4 animate-float"
+                onError={(e) => {
+                  console.error('Image failed to load:', e);
+                }}
               />
               <h4 className="text-xl font-bold mb-2 animate-fade-in">投稿テーマテンプレート集</h4>
               <p className="text-lg animate-slide-up">もう投稿ネタに困らないテーマテンプレート</p>
@@ -352,6 +355,9 @@ export default function TowaBootcampLP() {
                 width={200}
                 height={200}
                 className="mx-auto mb-4 animate-float"
+                onError={(e) => {
+                  console.error('Image failed to load:', e);
+                }}
               />
               <h4 className="text-xl font-bold mb-2 animate-fade-in">Canva AI活用マニュアル</h4>
               <p className="text-lg animate-slide-up">画像・投稿文を一括作成する実践的手順書</p>
@@ -365,13 +371,16 @@ export default function TowaBootcampLP() {
         <div className="grid md:grid-cols-2 gap-6 max-w-4xl mx-auto">
           <Card className="card-hover">
             <CardContent className="p-6 text-center">
-              <Image
-                src="/images/Prompt.png"
-                alt="自動化プロンプト集"
-                width={200}
-                height={200}
-                className="mx-auto mb-4 animate-float"
-              />
+                                      <Image
+                          src="/images/prompt.png"
+                          alt="自動化プロンプト集"
+                          width={200}
+                          height={200}
+                          className="mx-auto mb-4 animate-float"
+                          onError={(e) => {
+                            console.error('Image failed to load:', e);
+                          }}
+                        />
               <h4 className="text-xl font-bold mb-2 animate-fade-in">自動化プロンプト集</h4>
               <p className="text-lg animate-slide-up">コピペで使える業務自動化プロンプト</p>
             </CardContent>
@@ -385,6 +394,9 @@ export default function TowaBootcampLP() {
                 width={200}
                 height={200}
                 className="mx-auto mb-4 animate-float"
+                onError={(e) => {
+                  console.error('Image failed to load:', e);
+                }}
               />
               <h4 className="text-xl font-bold mb-2 animate-fade-in">あなた専用自動化システム</h4>
               <p className="text-lg animate-slide-up">フォーム連携・スケジュール管理の自動化システム</p>
@@ -426,8 +438,8 @@ export default function TowaBootcampLP() {
       </section>
 
       {/* Value Proposition */}
-      <section className="py-12" style={{ backgroundColor: '#F9F6F2' }}>
-        <div className="container mx-auto px-4">
+      <section className="py-12 overflow-hidden" style={{ backgroundColor: '#F9F6F2' }}>
+        <div className="container mx-auto px-4 max-w-full">
           <div className="text-center mb-8">
             <h2 className="text-3xl font-bold mb-6">価値以上の価値を、この1日で。</h2>
             <p className="text-xl">なぜ、この講座が最高の自己投資になるのか？その理由を様々な角度からご説明します。</p>
@@ -510,7 +522,7 @@ export default function TowaBootcampLP() {
             <div className="max-w-4xl mx-auto space-y-4">
               <p className="text-xl leading-relaxed">
                 本来なら、それぞれ別々に学び、外注すれば<span className="font-bold" style={{ color: '#c7564f' }}>20万円以上</span>かかる内容を、
-              <br />
+              <br className="hidden sm:block" />
                 今回は「1日であなたの仕事・活動を効率化する仕組みを一気に構築」というテーマで、すべてセットでご提供します。
               </p>
               
@@ -520,7 +532,7 @@ export default function TowaBootcampLP() {
               
               <p className="text-xl leading-relaxed">
                 業務効率化やSNS運用、AIスキルを短期間で身につけたい方、
-              <br />
+              <br className="hidden sm:block" />
                 副業・自営業に踏み出す方にこそ受けてほしい、<span className="font-bold text-xl" style={{ color: '#c7564f' }}>未来への投資になる1日です。</span>
             </p>
           </div>
@@ -529,8 +541,8 @@ export default function TowaBootcampLP() {
       </section>
 
       {/* Schedule & Pricing */}
-      <section className="py-16 bg-slate-100">
-        <div className="container mx-auto px-4">
+      <section className="py-16 bg-slate-100 overflow-hidden">
+        <div className="container mx-auto px-4 max-w-full">
 
 
           {/* Pricing Cards */}
@@ -789,8 +801,8 @@ export default function TowaBootcampLP() {
       </section>
 
       {/* FAQ */}
-      <section className="py-16 bg-white">
-        <div className="container mx-auto px-4">
+      <section className="py-16 bg-white overflow-hidden">
+        <div className="container mx-auto px-4 max-w-full">
           <h2 className="text-3xl font-bold text-center mb-12">よくある質問</h2>
 
           <div className="max-w-4xl mx-auto space-y-4">
@@ -847,8 +859,8 @@ export default function TowaBootcampLP() {
       </section>
 
       {/* Company Info */}
-      <section className="py-16 bg-slate-100">
-        <div className="container mx-auto px-4">
+      <section className="py-16 bg-slate-100 overflow-hidden">
+        <div className="container mx-auto px-4 max-w-full">
           <Card className="max-w-4xl mx-auto">
             <CardContent className="p-8">
               <h2 className="text-2xl font-bold text-center mb-8">TOWAの想い ー "好き"と"AIスキル"で、伴走する</h2>
@@ -880,8 +892,8 @@ export default function TowaBootcampLP() {
       </section>
 
       {/* Final CTA */}
-      <section className="py-16 bg-slate-50">
-        <div className="container mx-auto px-4">
+      <section className="py-16 bg-slate-50 overflow-hidden">
+        <div className="container mx-auto px-4 max-w-full">
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold mb-4 animate-fade-in" style={{ color: '#CC554F' }}>
               この夏、あなたの"できる"をブートキャンプで加速しませんか？
@@ -940,7 +952,7 @@ export default function TowaBootcampLP() {
 
       {/* Footer */}
       <footer className="bg-slate-800 text-gray-300 py-12">
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto px-4 max-w-full">
           <div className="grid md:grid-cols-2 gap-8 mb-8">
             {/* Left side - Company Info */}
             <div className="animate-fade-in">
