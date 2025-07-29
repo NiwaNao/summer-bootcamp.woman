@@ -247,6 +247,9 @@
   }
   body {
     @apply bg-background text-foreground;
+<<<<<<< HEAD
     overflow-x: hidden;
+=======
+>>>>>>> be5bfe05171d027a87f604eed878f8ccfe8d85d8
   }
 }

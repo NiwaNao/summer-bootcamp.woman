@@ -15,9 +15,14 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   return (
+<<<<<<< HEAD
     <html lang="ja">
       <head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+=======
+    <html lang="en">
+      <head>
+>>>>>>> be5bfe05171d027a87f604eed878f8ccfe8d85d8
         <style>{`
 html {
   font-family: ${GeistSans.style.fontFamily};
@@ -26,7 +31,11 @@ html {
 }
         `}</style>
       </head>
+<<<<<<< HEAD
       <body className="overflow-x-hidden">{children}</body>
+=======
+      <body>{children}</body>
+>>>>>>> be5bfe05171d027a87f604eed878f8ccfe8d85d8
     </html>
   )
 }

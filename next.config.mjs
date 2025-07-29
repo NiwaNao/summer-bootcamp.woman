@@ -7,6 +7,7 @@ const nextConfig = {
     ignoreBuildErrors: true,
   },
   images: {
+<<<<<<< HEAD
     unoptimized: false,
     domains: ['localhost'],
     remotePatterns: [
@@ -15,6 +16,9 @@ const nextConfig = {
         hostname: '**',
       },
     ],
+=======
+    unoptimized: true,
+>>>>>>> be5bfe05171d027a87f604eed878f8ccfe8d85d8
   },
 }
 
