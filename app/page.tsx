@@ -338,9 +338,6 @@ export default function TowaBootcampLP() {
                 width={200}
                 height={200}
                 className="mx-auto mb-4 animate-float"
-                onError={(e) => {
-                  console.error('Image failed to load:', e);
-                }}
               />
               <h4 className="text-xl font-bold mb-2 animate-fade-in">投稿テーマテンプレート集</h4>
               <p className="text-lg animate-slide-up">もう投稿ネタに困らないテーマテンプレート</p>
@@ -355,9 +352,6 @@ export default function TowaBootcampLP() {
                 width={200}
                 height={200}
                 className="mx-auto mb-4 animate-float"
-                onError={(e) => {
-                  console.error('Image failed to load:', e);
-                }}
               />
               <h4 className="text-xl font-bold mb-2 animate-fade-in">Canva AI活用マニュアル</h4>
               <p className="text-lg animate-slide-up">画像・投稿文を一括作成する実践的手順書</p>
@@ -377,9 +371,6 @@ export default function TowaBootcampLP() {
                           width={200}
                           height={200}
                           className="mx-auto mb-4 animate-float"
-                          onError={(e) => {
-                            console.error('Image failed to load:', e);
-                          }}
                         />
               <h4 className="text-xl font-bold mb-2 animate-fade-in">自動化プロンプト集</h4>
               <p className="text-lg animate-slide-up">コピペで使える業務自動化プロンプト</p>
@@ -394,9 +385,6 @@ export default function TowaBootcampLP() {
                 width={200}
                 height={200}
                 className="mx-auto mb-4 animate-float"
-                onError={(e) => {
-                  console.error('Image failed to load:', e);
-                }}
               />
               <h4 className="text-xl font-bold mb-2 animate-fade-in">あなた専用自動化システム</h4>
               <p className="text-lg animate-slide-up">フォーム連携・スケジュール管理の自動化システム</p>
@@ -831,8 +819,8 @@ export default function TowaBootcampLP() {
               </div>
             </details>
 
-                        <details className="bg-slate-50 rounded-lg p-6">
-              <summary className="font-bold text-xl cursor-pointer flex items-center justify-between" style={{ color: '#CC554F' }}>
+            <details className="bg-slate-50 rounded-lg p-6">
+              <summary className="font-bold text-xl cursor-pointer flex items-center justify-between">
                 支払い方法は何がありますか？分割払いは可能ですか？
                 <ChevronDown className="w-5 h-5" />
               </summary>
@@ -843,8 +831,8 @@ export default function TowaBootcampLP() {
               </div>
             </details>
 
-                        <details className="bg-slate-50 rounded-lg p-6">
-              <summary className="font-bold text-xl cursor-pointer flex items-center justify-between" style={{ color: '#CC554F' }}>
+            <details className="bg-slate-50 rounded-lg p-6">
+              <summary className="font-bold text-xl cursor-pointer flex items-center justify-between">
                 ブートキャンプ後も質問できるようなサポートはありますか？
                 <ChevronDown className="w-5 h-5" />
               </summary>
@@ -912,7 +900,7 @@ export default function TowaBootcampLP() {
                   参加を決めた方はこちら
                 </p>
                 <Button className="text-white w-full rounded-full button-hover animate-float" style={{ backgroundColor: '#CC554F' }} asChild>
-                  <a href="https://summer-bootcamp.towa-ai.com/apply" target="_blank" rel="noopener noreferrer">
+                  <a href="/apply">
                     →お申込みフォームへ
                   </a>
                 </Button>
@@ -944,7 +932,7 @@ export default function TowaBootcampLP() {
       {/* Fixed CTA Button */}
       <div className="fixed bottom-6 right-6 z-50">
                       <Button className="text-white px-6 py-3 rounded-full shadow-lg button-hover animate-pulse-glow" style={{ backgroundColor: '#CC554F' }} asChild>
-          <a href="https://summer-bootcamp.towa-ai.com/apply" target="_blank" rel="noopener noreferrer">
+          <a href="/apply">
             🎯 申し込む
           </a>
         </Button>
