@@ -18,13 +18,13 @@ export default function TowaBootcampLP() {
               {/* Navigation Buttons */}
               <div className="flex items-center gap-1 md:gap-4">
                 <Button variant="outline" className="border-white text-white hover:bg-white/10 backdrop-blur-sm bg-white/5 text-xs md:text-sm px-2 py-1 md:px-4 md:py-2" asChild>
-                  <a href="https://summer-bootcamp-women.towa-ai.com/about" target="_blank" rel="noopener noreferrer">
+                  <a href="https://summer-bootcamp-women.towa-ai.com/about">
                     <span className="hidden sm:inline">TOWAについて</span>
                     <span className="sm:hidden">TOWA</span>
                   </a>
                 </Button>
                 <Button variant="outline" className="border-white text-white hover:bg-white/10 backdrop-blur-sm bg-white/5 text-xs md:text-sm px-2 py-1 md:px-4 md:py-2" asChild>
-                  <a href="https://summer-bootcamp-women.towa-ai.com/team" target="_blank" rel="noopener noreferrer">
+                  <a href="https://summer-bootcamp-women.towa-ai.com/team">
                     <span className="hidden sm:inline">About Us</span>
                     <span className="sm:hidden">About</span>
                   </a>
@@ -869,7 +869,7 @@ export default function TowaBootcampLP() {
 
               <div className="text-center mt-8">
                 <Button className="text-white px-8 py-3 rounded-full" style={{ backgroundColor: '#CC554F' }} asChild>
-                  <a href="https://summer-bootcamp-women.towa-ai.com/team" target="_blank" rel="noopener noreferrer">
+                  <a href="https://summer-bootcamp-women.towa-ai.com/team">
                     講師について詳しく知る
                   </a>
                 </Button>
@@ -918,7 +918,7 @@ export default function TowaBootcampLP() {
                   →相談したい方
                 </p>
                 <Button className="text-white w-full rounded-full button-hover animate-float" style={{ backgroundColor: '#00C300' }} asChild>
-                  <a href="https://summer-bootcamp-women.towa-ai.com/line-consultation" target="_blank" rel="noopener noreferrer">
+                  <a href="https://summer-bootcamp-women.towa-ai.com/line-consultation">
                     📱 無料相談を予約する
                   </a>
                 </Button>
